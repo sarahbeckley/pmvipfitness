@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #059418;
+  --secondary-color: #32cd32;
+  --light-color: #fff;
+  --dark-color: #000;
+  --background-img: url("img/header-fitness.png");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Serif Caption", serif;
+  max-width: 1550px;
+  margin: auto;
+  overflow-x: hidden;
+  background: rgb(236, 235, 235);
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary-line {
+  background: var(--primary-color);
+  width: 150px;
+  height: 3px;
+  margin: auto;
+  margin-top: 0.75rem;
+  border-radius: 10px;
+}
+
+.secondary-line {
+  background: var(--secondary-color);
+  width: 150px;
+  height: 3px;
+  margin: auto;
+  margin-top: 0.75rem;
+  border-radius: 10px;
+}
+
+.secondary-line-contact {
+  background: var(--secondary-color);
+  width: 80px;
+  height: 3px;
+  margin: auto;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+
+.white-line {
+  background: var(--light-color);
+  width: 150px;
+  height: 3px;
+  margin: auto;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+/* Consultation */
+#heading {
+  background: var(--light-color);
+  margin: 2rem;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  border: #333 solid 1px;
+}
+
+#heading h1 {
+  text-align: center;
+  margin: 1rem;
+  padding-top: 1.5rem;
+}
+
+#heading p {
+  padding: 1.5rem;
+  padding-top: 0;
+  font-size: 18px;
+}
